@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e69e2373e7.js" crossorigin="anonymous"></script>
+    <title>Destination house page</title>
+</head>
+<body>
+    
+    <nav id="nav-bar" class="navbar-white">
+        <img src="./images/banner12.png" class="logo">
+        
+        <ul class="nav-links">
+            <li><a href="./index.html" class="active">Popular Places</a></li>
+            <li><a href="./house.html">Travel Outside</a></li>
+            <li><a href="./listing.html">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="toggleBtn()"></i>
+    </nav>
+    <div class="house-details">
+
+        <div class="house-title">
+            <h1>Rest House</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span> 245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San fraksjfh dfjb</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/img7.jpg" alt=""></div>
+            <div><img src="images/img2.jpg" alt=""></div>
+            <div><img src="images/img6.jpg" alt=""></div>
+            <div><img src="images/img4.jpg" alt=""></div>
+            <div><img src="images/img5.jpg" alt=""></div>
+
+        </div>
+        <div class="small-details">
+            <h2>Rental hosted by sad</h2>
+            <p>2 guest , 2beds, wifi, kitchen, 1 bed room</p>
+            <h4>$ 100 / Day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label for="">Check-in</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div>
+                <label for="">Check-out</label>
+                <input type="text" placeholder="Add date">
+            </div>
+            <div class="guest-field">
+                <label for="">Guest</label>
+                <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li>
+                Entire home 
+                <span>Whole area for you.</span>
+            </li>
+            <li>
+                Awesome Location
+                <span>Satisfied review.</span>
+            </li>
+            <li>
+                Total Clean 
+                <span>Its our responsibility.</span>
+            </li>
+            <li>
+                Great experience 
+                <span>Best holiday for you.</span>
+            </li>
+        </ul>
+        <hr class="line">
+        <p class="home-desc"> Your room is not just a place to stay; it's a sanctuary where comfort and luxury intertwine. Impeccably designed with your every need in mind, our rooms offer a haven of relaxation and a backdrop for unforgettable memories. From plush furnishings to thoughtful amenities, we invite you to unwind, recharge, and indulge in the epitome of hospitality."</p>
+        <hr class="line">
+        <div class="map">
+            <h3>Location on Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.18176388429!2d-122.52017417344403!3d37.7576711943484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1695288489636!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>San Francisco, California, Us</b>
+            <p>Its Like just your home .</p>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="images/chai.jpg" alt="">
+            <div>
+                <h2>Hosted by X</h2>
+                <p><span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    
+                </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; Response rate 100% &nbsp; &nbsp; Response time:60min</p>
+            </div>
+        </div>
+        <a href="" class="contact-host">Contact Host</a>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https.//facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https.//youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https.//instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https.//twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https.//linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+         <hr>
+         <p>Copyright Destination, sudipta <i class="fa-solid fa-mug-hot"></i></p>
+     </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("nav-bar");
+    
+        function toggleBtn() {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
